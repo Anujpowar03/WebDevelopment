@@ -1,0 +1,36 @@
+carshowroom { 
+	color: black; 
+	background-color: #fff8dc;
+	width: 100%; 
+} 
+heading { 
+	color: white; 
+	font-size : 40px; 
+	background-color : grey;
+	text-align : center; 
+} 
+heading, companyname, carname, model, price {
+	display: block;
+	text-align: center;
+	margin: 5px;
+} 
+car1, car2, car3, car4, car5, car6 {
+	display: block;
+	margin: 20px auto;
+	padding: 15px;
+	width: 60%;
+}
+car{ 
+	font-size : 25px; 
+	font-weight : bold; 
+} 
+carname {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+}
+price {
+	font-size: 24px;
+	color: green;
+	font-weight: bold;
+}

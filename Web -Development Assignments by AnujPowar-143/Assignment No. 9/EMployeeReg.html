@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label, input, select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            display: inline;
+            width: auto;
+        }
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function showMessage(event) {
+            event.preventDefault();
+            alert("Employee Registered Successfully!");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Registration</h1><hr/>
+        <form onsubmit="showMessage(event)">
+            <h4> -: Employee Details :-</h4> 
+            <label for="empname">Full Name</label>
+            <input type="text" id="empname" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="number">Mobile No.</label>
+            <input type="number" id="number" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+
+            <h4> -: Job Details :-</h4>
+            <label for="company">Company Name</label>
+            <select name="company" id="company">
+                <option value="Infosys">Infosys</option>
+                <option value="TCS">TCS</option>
+                <option value="Wipro">Wipro</option>
+                <option value="Capgemini">Capgemini</option>
+                <option value="Cognizant">Cognizant</option>
+            </select>
+
+            <label for="department">Department</label>
+            <select name="department" id="department">
+                <option value="HR">HR</option>
+                <option value="Development">Development</option>
+                <option value="Testing">Testing</option>
+                <option value="Support">Support</option>
+                <option value="Finance">Finance</option>
+            </select>
+
+            <label for="experience">Years of Experience</label>
+            <select name="experience" id="experience">
+                <option value="Fresher">Fresher</option>
+                <option value="1-2 Years">1-2 Years</option>
+                <option value="3-5 Years">3-5 Years</option>
+                <option value="5+ Years">5+ Years</option>
+            </select>
+
+            <label>Technical Skills:</label>
+            <input type="checkbox" name="skills" value="C"> C
+            <input type="checkbox" name="skills" value="C++"> C++
+            <input type="checkbox" name="skills" value="Java"> Java
+            <input type="checkbox" name="skills" value="Python"> Python
+            <input type="checkbox" name="skills" value="SQL"> SQL
+
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+</html>

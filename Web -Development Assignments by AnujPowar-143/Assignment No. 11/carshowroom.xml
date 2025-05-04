@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="car.css"?>
+
+<carshowroom>
+	<heading>-: Welcome To Anuj's CarShowroom :-</heading> 
+
+	<car1 category='SUV'>
+		<companyname>Toyota</companyname>
+		<carname>Fortuner</carname>
+		<model>2023</model>
+		<price>4500000</price>
+        </car1>
+
+	<car2 category='sedan'>
+		<companyname>Hyundai</companyname>
+		<carname>Verna</carname>
+		<model>2024</model>
+		<price>1900000</price>
+    	</car2>
+
+	<car3 category='hatchback'>
+		<companyname>Volkswagen</companyname>
+		<carname>Polo</carname>
+		<model>2022</model>
+		<price>1300000</price>
+    	</car3>
+
+	<car4 category='minivan'>
+		<companyname>Mercedes-Benz</companyname>
+		<carname>Metris</carname>
+		<model>2023</model>
+		<price>42000000</price>
+    	</car4>
+
+     	<car5 category='sports car'>
+		<companyname>Lamborghini</companyname>
+		<carname>Huracan EVO</carname>
+		<model>2023</model>
+		<price>30000000</price>
+    	</car5>
+	
+	<car6 category='electric car'>
+		<companyname>Tesla</companyname>
+		<carname>Model S</carname>
+		<model>2024</model>
+		<price>80000000</price>
+    	</car6>
+</carshowroom>
