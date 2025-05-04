@@ -1,0 +1,22 @@
+<?xml version = "1.0" ?>
+<?xml-stylesheet type = "text/xsl" href = "student1.xsl"?> 
+<students>
+    <student>
+        <name>Anuj</name>
+        <roll>143</roll>
+        <branch>CSE</branch>
+        <marks>85</marks>
+    </student>
+    <student>
+        <name>Shubham</name>
+        <roll>18</roll>
+        <branch>ENTC</branch>
+        <marks>83</marks>
+    </student>
+    <student>
+        <name>John</name>
+        <roll>19</roll>
+        <branch>MECH</branch>
+        <marks>39</marks>
+    </student>
+</students>
